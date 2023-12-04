@@ -1,14 +1,16 @@
 ﻿// -----------------------------------------------------------------------
-// <copyright file="LoggingExtensions.cs" company="Altavec">
+// <copyright file="LoggingExtensionsTests.cs" company="Altavec">
 // Copyright (c) Altavec. All rights reserved.
 // </copyright>
 // -----------------------------------------------------------------------
 
 namespace System.CommandLine.Logging;
 
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 
-public class LoggingExtensions
+public class LoggingExtensionsTests
 {
     [Fact]
     public void AddLogging()
