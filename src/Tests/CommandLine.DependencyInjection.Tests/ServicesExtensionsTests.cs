@@ -1,10 +1,10 @@
 // -----------------------------------------------------------------------
-// <copyright file="UnitTest1.cs" company="Altavec">
+// <copyright file="ServicesExtensionsTests.cs" company="Altavec">
 // Copyright (c) Altavec. All rights reserved.
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace System.CommandLine.DependencyInjection.Tests;
+namespace System.CommandLine.DependencyInjection;
 
 using Microsoft.Extensions.DependencyInjection;
 

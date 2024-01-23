@@ -1,5 +1,5 @@
 ﻿// -----------------------------------------------------------------------
-// <copyright file="AnsiConsoleCommandExtensionsTests.cs" company="Altavec">
+// <copyright file="AnsiConsoleConfigurationExtensionsTests.cs" company="Altavec">
 // Copyright (c) Altavec. All rights reserved.
 // </copyright>
 // -----------------------------------------------------------------------
@@ -15,8 +15,8 @@ public class AnsiConsoleConfigurationExtensionsTests
 
         var configuration = new CliConfiguration(new CliRootCommand()).AddFiglet("value", Color.Blue, console);
 
-        configuration.Parse("--help").Invoke();
+        _ = configuration.Parse("--help").Invoke();
 
-        console.Lines.Skip(1).Should().NotBeEmpty();
+        _ = console.Lines.Skip(1).Should().NotBeEmpty();
     }
 }
