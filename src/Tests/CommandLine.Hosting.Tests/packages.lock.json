@@ -539,10 +539,18 @@
           "System.CommandLine": "[2.0.0-beta4.23407.1, )"
         }
       },
+      "Altavec.CommandLine.Extensions": {
+        "type": "Project",
+        "dependencies": {
+          "Microsoft.Extensions.FileSystemGlobbing": "[2.1.0, )",
+          "System.CommandLine": "[2.0.0-beta4.23407.1, )"
+        }
+      },
       "Altavec.CommandLine.Hosting": {
         "type": "Project",
         "dependencies": {
           "Altavec.CommandLine": "[1.0.0, )",
+          "Altavec.CommandLine.Extensions": "[1.0.0, )",
           "Microsoft.Extensions.Hosting": "[2.1.0, )"
         }
       },
@@ -1027,10 +1035,18 @@
           "System.CommandLine": "[2.0.0-beta4.23407.1, )"
         }
       },
+      "Altavec.CommandLine.Extensions": {
+        "type": "Project",
+        "dependencies": {
+          "Microsoft.Extensions.FileSystemGlobbing": "[2.1.0, )",
+          "System.CommandLine": "[2.0.0-beta4.23407.1, )"
+        }
+      },
       "Altavec.CommandLine.Hosting": {
         "type": "Project",
         "dependencies": {
           "Altavec.CommandLine": "[1.0.0, )",
+          "Altavec.CommandLine.Extensions": "[1.0.0, )",
           "Microsoft.Extensions.Hosting": "[2.1.0, )"
         }
       },
@@ -1488,10 +1504,18 @@
           "System.CommandLine": "[2.0.0-beta4.23407.1, )"
         }
       },
+      "Altavec.CommandLine.Extensions": {
+        "type": "Project",
+        "dependencies": {
+          "Microsoft.Extensions.FileSystemGlobbing": "[2.1.0, )",
+          "System.CommandLine": "[2.0.0-beta4.23407.1, )"
+        }
+      },
       "Altavec.CommandLine.Hosting": {
         "type": "Project",
         "dependencies": {
           "Altavec.CommandLine": "[1.0.0, )",
+          "Altavec.CommandLine.Extensions": "[1.0.0, )",
           "Microsoft.Extensions.Hosting": "[7.0.0, )"
         }
       },
@@ -1972,10 +1996,18 @@
           "System.CommandLine": "[2.0.0-beta4.23407.1, )"
         }
       },
+      "Altavec.CommandLine.Extensions": {
+        "type": "Project",
+        "dependencies": {
+          "Microsoft.Extensions.FileSystemGlobbing": "[2.1.0, )",
+          "System.CommandLine": "[2.0.0-beta4.23407.1, )"
+        }
+      },
       "Altavec.CommandLine.Hosting": {
         "type": "Project",
         "dependencies": {
           "Altavec.CommandLine": "[1.0.0, )",
+          "Altavec.CommandLine.Extensions": "[1.0.0, )",
           "Microsoft.Extensions.Hosting": "[8.0.0, )"
         }
       },
