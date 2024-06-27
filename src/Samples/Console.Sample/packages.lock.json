@@ -287,6 +287,7 @@
         "dependencies": {
           "Altavec.CommandLine": "[1.0.0, )",
           "Altavec.CommandLine.FileSystemGlobbing": "[1.0.0, )",
+          "Altavec.CommandLine.Logging": "[1.0.0, )",
           "Microsoft.Extensions.Hosting": "[2.1.0, )"
         }
       },
@@ -737,6 +738,7 @@
         "dependencies": {
           "Altavec.CommandLine": "[1.0.0, )",
           "Altavec.CommandLine.FileSystemGlobbing": "[1.0.0, )",
+          "Altavec.CommandLine.Logging": "[1.0.0, )",
           "Microsoft.Extensions.Hosting": "[8.0.0, )"
         }
       },
