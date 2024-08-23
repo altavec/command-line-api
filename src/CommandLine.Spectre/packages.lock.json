@@ -106,7 +106,7 @@
         "resolved": "0.2.0",
         "contentHash": "H7no2W0vuLJTvSPanlrijtG3UdJNVoeWBOp2a5dJFVa2tqSQuP5GfbJw1xAtPG9agRW310nFTUUsyPz5tuVIxw=="
       },
-      "Altavec.CommandLine": {
+      "commandline": {
         "type": "Project",
         "dependencies": {
           "System.CommandLine": "[2.0.0-beta4.23407.1, )"
@@ -232,7 +232,7 @@
         "resolved": "0.2.0",
         "contentHash": "H7no2W0vuLJTvSPanlrijtG3UdJNVoeWBOp2a5dJFVa2tqSQuP5GfbJw1xAtPG9agRW310nFTUUsyPz5tuVIxw=="
       },
-      "Altavec.CommandLine": {
+      "commandline": {
         "type": "Project",
         "dependencies": {
           "System.CommandLine": "[2.0.0-beta4.23407.1, )"
@@ -323,7 +323,7 @@
         "resolved": "0.2.0",
         "contentHash": "H7no2W0vuLJTvSPanlrijtG3UdJNVoeWBOp2a5dJFVa2tqSQuP5GfbJw1xAtPG9agRW310nFTUUsyPz5tuVIxw=="
       },
-      "Altavec.CommandLine": {
+      "commandline": {
         "type": "Project",
         "dependencies": {
           "System.CommandLine": "[2.0.0-beta4.23407.1, )"
