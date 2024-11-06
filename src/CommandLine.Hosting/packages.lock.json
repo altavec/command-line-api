@@ -4,15 +4,15 @@
     ".NETStandard,Version=v2.0": {
       "Altavec.DotNet.CodingStandard": {
         "type": "Direct",
-        "requested": "[1.0.35, )",
-        "resolved": "1.0.35",
-        "contentHash": "jzTTW1wZZbbyr/XHOmx6745/mzfvC9t/XUkm6J0ccbRmXXV9HTuGFkJiSG3P6qAyvKXCD0oCu4ZQcaAjux5LCg==",
+        "requested": "[1.0.45, )",
+        "resolved": "1.0.45",
+        "contentHash": "7S6KB+tXVjFuhK4ZpZYk5OaqZM4eEDaLn6sq4DXi01m7z1UtqYN/h8JMU2yeetaNgIVUN5spL8/RCAfcHEnhkQ==",
         "dependencies": {
           "DotNet.ReproducibleBuilds": "1.2.25",
           "DotNet.ReproducibleBuilds.Isolated": "1.2.25",
-          "Meziantou.Analyzer": "2.0.169",
+          "Meziantou.Analyzer": "2.0.177",
           "Microsoft.CodeAnalysis.BannedApiAnalyzers": "3.3.4",
-          "Roslynator.Analyzers": "4.12.7",
+          "Roslynator.Analyzers": "4.12.9",
           "SonarAnalyzer.CSharp": "9.32.0.97167",
           "StyleCop.Analyzers.Unstable": "1.2.0.556"
         }
@@ -57,8 +57,8 @@
       },
       "Meziantou.Analyzer": {
         "type": "Transitive",
-        "resolved": "2.0.169",
-        "contentHash": "Bxp0RwDW2ZdvF7Xsil/oebCujkENaisjzUFFW3PGXJ3tIfirZU7MTyEGW4WMbrNiIY8Yj5cJbcqM/KVEqEvFfw=="
+        "resolved": "2.0.177",
+        "contentHash": "aGdHdJfHugY7nyXeKVNPd76fetilSq/CSGO54QEiEh2SSwncg3XAdPh68ui3++hwtkdvDz4ATwFfS2RFX8S+vg=="
       },
       "Microsoft.CodeAnalysis.BannedApiAnalyzers": {
         "type": "Transitive",
@@ -176,8 +176,8 @@
       },
       "Roslynator.Analyzers": {
         "type": "Transitive",
-        "resolved": "4.12.7",
-        "contentHash": "pYDikoTXugueMq/ZBUMIjALdL4D2chgXSMQJCp2uLk2fUMtDZJw8F0CQvIWc/64gKCqkwOkTr/e2HhQaVyNAXw=="
+        "resolved": "4.12.9",
+        "contentHash": "X6lDpN/D5wuinq37KIx+l3GSUe9No+8bCjGBTI5sEEtxapLztkHg6gzNVhMXpXw8P+/5gFYxTXJ5Pf8O4iNz/w=="
       },
       "SonarAnalyzer.CSharp": {
         "type": "Transitive",
@@ -222,23 +222,23 @@
         "resolved": "4.5.3",
         "contentHash": "3TIsJhD1EiiT0w2CcDMN/iSSwnNnsrnbzeVHSKkaEgV85txMprmuO+Yq2AdSbeVGcg28pdNDTPK87tJhX7VFHw=="
       },
-      "commandline": {
+      "Altavec.CommandLine": {
         "type": "Project",
         "dependencies": {
           "System.CommandLine": "[2.0.0-beta4.23407.1, )"
         }
       },
-      "commandline.filesystemglobbing": {
+      "Altavec.CommandLine.FileSystemGlobbing": {
         "type": "Project",
         "dependencies": {
           "Microsoft.Extensions.FileSystemGlobbing": "[2.1.0, )",
           "System.CommandLine": "[2.0.0-beta4.23407.1, )"
         }
       },
-      "commandline.logging": {
+      "Altavec.CommandLine.Logging": {
         "type": "Project",
         "dependencies": {
-          "CommandLine": "[1.0.0, )",
+          "Altavec.CommandLine": "[1.0.0, )",
           "Microsoft.Extensions.DependencyInjection": "[2.1.0, )",
           "Microsoft.Extensions.Logging": "[2.1.0, )"
         }
@@ -247,15 +247,15 @@
     "net7.0": {
       "Altavec.DotNet.CodingStandard": {
         "type": "Direct",
-        "requested": "[1.0.35, )",
-        "resolved": "1.0.35",
-        "contentHash": "jzTTW1wZZbbyr/XHOmx6745/mzfvC9t/XUkm6J0ccbRmXXV9HTuGFkJiSG3P6qAyvKXCD0oCu4ZQcaAjux5LCg==",
+        "requested": "[1.0.45, )",
+        "resolved": "1.0.45",
+        "contentHash": "7S6KB+tXVjFuhK4ZpZYk5OaqZM4eEDaLn6sq4DXi01m7z1UtqYN/h8JMU2yeetaNgIVUN5spL8/RCAfcHEnhkQ==",
         "dependencies": {
           "DotNet.ReproducibleBuilds": "1.2.25",
           "DotNet.ReproducibleBuilds.Isolated": "1.2.25",
-          "Meziantou.Analyzer": "2.0.169",
+          "Meziantou.Analyzer": "2.0.177",
           "Microsoft.CodeAnalysis.BannedApiAnalyzers": "3.3.4",
-          "Roslynator.Analyzers": "4.12.7",
+          "Roslynator.Analyzers": "4.12.9",
           "SonarAnalyzer.CSharp": "9.32.0.97167",
           "StyleCop.Analyzers.Unstable": "1.2.0.556"
         }
@@ -307,8 +307,8 @@
       },
       "Meziantou.Analyzer": {
         "type": "Transitive",
-        "resolved": "2.0.169",
-        "contentHash": "Bxp0RwDW2ZdvF7Xsil/oebCujkENaisjzUFFW3PGXJ3tIfirZU7MTyEGW4WMbrNiIY8Yj5cJbcqM/KVEqEvFfw=="
+        "resolved": "2.0.177",
+        "contentHash": "aGdHdJfHugY7nyXeKVNPd76fetilSq/CSGO54QEiEh2SSwncg3XAdPh68ui3++hwtkdvDz4ATwFfS2RFX8S+vg=="
       },
       "Microsoft.CodeAnalysis.BannedApiAnalyzers": {
         "type": "Transitive",
@@ -546,8 +546,8 @@
       },
       "Roslynator.Analyzers": {
         "type": "Transitive",
-        "resolved": "4.12.7",
-        "contentHash": "pYDikoTXugueMq/ZBUMIjALdL4D2chgXSMQJCp2uLk2fUMtDZJw8F0CQvIWc/64gKCqkwOkTr/e2HhQaVyNAXw=="
+        "resolved": "4.12.9",
+        "contentHash": "X6lDpN/D5wuinq37KIx+l3GSUe9No+8bCjGBTI5sEEtxapLztkHg6gzNVhMXpXw8P+/5gFYxTXJ5Pf8O4iNz/w=="
       },
       "SonarAnalyzer.CSharp": {
         "type": "Transitive",
@@ -582,23 +582,23 @@
           "System.Text.Encodings.Web": "7.0.0"
         }
       },
-      "commandline": {
+      "Altavec.CommandLine": {
         "type": "Project",
         "dependencies": {
           "System.CommandLine": "[2.0.0-beta4.23407.1, )"
         }
       },
-      "commandline.filesystemglobbing": {
+      "Altavec.CommandLine.FileSystemGlobbing": {
         "type": "Project",
         "dependencies": {
           "Microsoft.Extensions.FileSystemGlobbing": "[2.1.0, )",
           "System.CommandLine": "[2.0.0-beta4.23407.1, )"
         }
       },
-      "commandline.logging": {
+      "Altavec.CommandLine.Logging": {
         "type": "Project",
         "dependencies": {
-          "CommandLine": "[1.0.0, )",
+          "Altavec.CommandLine": "[1.0.0, )",
           "Microsoft.Extensions.DependencyInjection": "[2.1.0, )",
           "Microsoft.Extensions.Logging": "[2.1.0, )"
         }
@@ -607,15 +607,15 @@
     "net8.0": {
       "Altavec.DotNet.CodingStandard": {
         "type": "Direct",
-        "requested": "[1.0.35, )",
-        "resolved": "1.0.35",
-        "contentHash": "jzTTW1wZZbbyr/XHOmx6745/mzfvC9t/XUkm6J0ccbRmXXV9HTuGFkJiSG3P6qAyvKXCD0oCu4ZQcaAjux5LCg==",
+        "requested": "[1.0.45, )",
+        "resolved": "1.0.45",
+        "contentHash": "7S6KB+tXVjFuhK4ZpZYk5OaqZM4eEDaLn6sq4DXi01m7z1UtqYN/h8JMU2yeetaNgIVUN5spL8/RCAfcHEnhkQ==",
         "dependencies": {
           "DotNet.ReproducibleBuilds": "1.2.25",
           "DotNet.ReproducibleBuilds.Isolated": "1.2.25",
-          "Meziantou.Analyzer": "2.0.169",
+          "Meziantou.Analyzer": "2.0.177",
           "Microsoft.CodeAnalysis.BannedApiAnalyzers": "3.3.4",
-          "Roslynator.Analyzers": "4.12.7",
+          "Roslynator.Analyzers": "4.12.9",
           "SonarAnalyzer.CSharp": "9.32.0.97167",
           "StyleCop.Analyzers.Unstable": "1.2.0.556"
         }
@@ -668,8 +668,8 @@
       },
       "Meziantou.Analyzer": {
         "type": "Transitive",
-        "resolved": "2.0.169",
-        "contentHash": "Bxp0RwDW2ZdvF7Xsil/oebCujkENaisjzUFFW3PGXJ3tIfirZU7MTyEGW4WMbrNiIY8Yj5cJbcqM/KVEqEvFfw=="
+        "resolved": "2.0.177",
+        "contentHash": "aGdHdJfHugY7nyXeKVNPd76fetilSq/CSGO54QEiEh2SSwncg3XAdPh68ui3++hwtkdvDz4ATwFfS2RFX8S+vg=="
       },
       "Microsoft.CodeAnalysis.BannedApiAnalyzers": {
         "type": "Transitive",
@@ -931,8 +931,8 @@
       },
       "Roslynator.Analyzers": {
         "type": "Transitive",
-        "resolved": "4.12.7",
-        "contentHash": "pYDikoTXugueMq/ZBUMIjALdL4D2chgXSMQJCp2uLk2fUMtDZJw8F0CQvIWc/64gKCqkwOkTr/e2HhQaVyNAXw=="
+        "resolved": "4.12.9",
+        "contentHash": "X6lDpN/D5wuinq37KIx+l3GSUe9No+8bCjGBTI5sEEtxapLztkHg6gzNVhMXpXw8P+/5gFYxTXJ5Pf8O4iNz/w=="
       },
       "SonarAnalyzer.CSharp": {
         "type": "Transitive",
@@ -972,23 +972,23 @@
           "System.Text.Encodings.Web": "8.0.0"
         }
       },
-      "commandline": {
+      "Altavec.CommandLine": {
         "type": "Project",
         "dependencies": {
           "System.CommandLine": "[2.0.0-beta4.23407.1, )"
         }
       },
-      "commandline.filesystemglobbing": {
+      "Altavec.CommandLine.FileSystemGlobbing": {
         "type": "Project",
         "dependencies": {
           "Microsoft.Extensions.FileSystemGlobbing": "[2.1.0, )",
           "System.CommandLine": "[2.0.0-beta4.23407.1, )"
         }
       },
-      "commandline.logging": {
+      "Altavec.CommandLine.Logging": {
         "type": "Project",
         "dependencies": {
-          "CommandLine": "[1.0.0, )",
+          "Altavec.CommandLine": "[1.0.0, )",
           "Microsoft.Extensions.DependencyInjection": "[2.1.0, )",
           "Microsoft.Extensions.Logging": "[2.1.0, )"
         }
