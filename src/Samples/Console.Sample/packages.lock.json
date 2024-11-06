@@ -263,45 +263,45 @@
         "resolved": "4.5.0",
         "contentHash": "okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ=="
       },
-      "Altavec.CommandLine": {
+      "commandline": {
         "type": "Project",
         "dependencies": {
           "System.CommandLine": "[2.0.0-beta4.23407.1, )"
         }
       },
-      "Altavec.CommandLine.FileSystemGlobbing": {
+      "commandline.filesystemglobbing": {
         "type": "Project",
         "dependencies": {
           "Microsoft.Extensions.FileSystemGlobbing": "[2.1.0, )",
           "System.CommandLine": "[2.0.0-beta4.23407.1, )"
         }
       },
-      "Altavec.CommandLine.Hosting": {
+      "commandline.hosting": {
         "type": "Project",
         "dependencies": {
-          "Altavec.CommandLine": "[1.0.0, )",
-          "Altavec.CommandLine.FileSystemGlobbing": "[1.0.0, )",
-          "Altavec.CommandLine.Logging": "[1.0.0, )",
+          "CommandLine": "[1.0.0, )",
+          "CommandLine.FileSystemGlobbing": "[1.0.0, )",
+          "CommandLine.Logging": "[1.0.0, )",
           "Microsoft.Extensions.Hosting": "[2.1.0, )"
         }
       },
-      "Altavec.CommandLine.Logging": {
+      "commandline.logging": {
         "type": "Project",
         "dependencies": {
-          "Altavec.CommandLine": "[1.0.0, )",
+          "CommandLine": "[1.0.0, )",
           "Microsoft.Extensions.DependencyInjection": "[2.1.0, )",
           "Microsoft.Extensions.Logging": "[2.1.0, )"
         }
       },
-      "Altavec.CommandLine.Spectre": {
+      "commandline.spectre": {
         "type": "Project",
         "dependencies": {
-          "Altavec.CommandLine": "[1.0.0, )",
+          "CommandLine": "[1.0.0, )",
           "Spectre.Console": "[0.42.0, )"
         }
       }
     },
-    ".NETFramework,Version=v4.7.2/win-x86": {},
+    ".NETFramework,Version=v4.7.2/win7-x86": {},
     "net8.0": {
       "Altavec.DotNet.CodingStandard": {
         "type": "Direct",
@@ -677,45 +677,45 @@
         "resolved": "8.0.0",
         "contentHash": "yev/k9GHAEGx2Rg3/tU6MQh4HGBXJs70y7j1LaM1i/ER9po+6nnQ6RRqTJn1E7Xu0fbIFK80Nh5EoODxrbxwBQ=="
       },
-      "Altavec.CommandLine": {
+      "commandline": {
         "type": "Project",
         "dependencies": {
           "System.CommandLine": "[2.0.0-beta4.23407.1, )"
         }
       },
-      "Altavec.CommandLine.FileSystemGlobbing": {
+      "commandline.filesystemglobbing": {
         "type": "Project",
         "dependencies": {
           "Microsoft.Extensions.FileSystemGlobbing": "[2.1.0, )",
           "System.CommandLine": "[2.0.0-beta4.23407.1, )"
         }
       },
-      "Altavec.CommandLine.Hosting": {
+      "commandline.hosting": {
         "type": "Project",
         "dependencies": {
-          "Altavec.CommandLine": "[1.0.0, )",
-          "Altavec.CommandLine.FileSystemGlobbing": "[1.0.0, )",
-          "Altavec.CommandLine.Logging": "[1.0.0, )",
+          "CommandLine": "[1.0.0, )",
+          "CommandLine.FileSystemGlobbing": "[1.0.0, )",
+          "CommandLine.Logging": "[1.0.0, )",
           "Microsoft.Extensions.Hosting": "[8.0.0, )"
         }
       },
-      "Altavec.CommandLine.Logging": {
+      "commandline.logging": {
         "type": "Project",
         "dependencies": {
-          "Altavec.CommandLine": "[1.0.0, )",
+          "CommandLine": "[1.0.0, )",
           "Microsoft.Extensions.DependencyInjection": "[2.1.0, )",
           "Microsoft.Extensions.Logging": "[2.1.0, )"
         }
       },
-      "Altavec.CommandLine.Spectre": {
+      "commandline.spectre": {
         "type": "Project",
         "dependencies": {
-          "Altavec.CommandLine": "[1.0.0, )",
+          "CommandLine": "[1.0.0, )",
           "Spectre.Console": "[0.42.0, )"
         }
       }
     },
-    "net8.0/win-x86": {
+    "net8.0/win7-x86": {
       "System.Diagnostics.EventLog": {
         "type": "Transitive",
         "resolved": "8.0.0",

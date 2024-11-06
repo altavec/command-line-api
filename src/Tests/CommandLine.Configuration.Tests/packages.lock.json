@@ -183,16 +183,16 @@
           "xunit.extensibility.core": "[2.9.2]"
         }
       },
-      "Altavec.CommandLine": {
+      "commandline": {
         "type": "Project",
         "dependencies": {
           "System.CommandLine": "[2.0.0-beta4.23407.1, )"
         }
       },
-      "Altavec.CommandLine.Configuration": {
+      "commandline.configuration": {
         "type": "Project",
         "dependencies": {
-          "Altavec.CommandLine": "[1.0.0, )",
+          "CommandLine": "[1.0.0, )",
           "Microsoft.Extensions.Configuration": "[2.1.0, )"
         }
       }
@@ -363,16 +363,16 @@
           "xunit.extensibility.core": "[2.9.2]"
         }
       },
-      "Altavec.CommandLine": {
+      "commandline": {
         "type": "Project",
         "dependencies": {
           "System.CommandLine": "[2.0.0-beta4.23407.1, )"
         }
       },
-      "Altavec.CommandLine.Configuration": {
+      "commandline.configuration": {
         "type": "Project",
         "dependencies": {
-          "Altavec.CommandLine": "[1.0.0, )",
+          "CommandLine": "[1.0.0, )",
           "Microsoft.Extensions.Configuration": "[2.1.0, )"
         }
       }
@@ -543,16 +543,16 @@
           "xunit.extensibility.core": "[2.9.2]"
         }
       },
-      "Altavec.CommandLine": {
+      "commandline": {
         "type": "Project",
         "dependencies": {
           "System.CommandLine": "[2.0.0-beta4.23407.1, )"
         }
       },
-      "Altavec.CommandLine.Configuration": {
+      "commandline.configuration": {
         "type": "Project",
         "dependencies": {
-          "Altavec.CommandLine": "[1.0.0, )",
+          "CommandLine": "[1.0.0, )",
           "Microsoft.Extensions.Configuration": "[2.1.0, )"
         }
       }
