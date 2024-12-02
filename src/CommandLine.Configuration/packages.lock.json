@@ -4,16 +4,16 @@
     ".NETStandard,Version=v2.0": {
       "Altavec.DotNet.CodingStandard": {
         "type": "Direct",
-        "requested": "[1.0.47, )",
-        "resolved": "1.0.47",
-        "contentHash": "NO8TtucAZ20bZT8jwNc1kf5jB4PA7DsMmzy2w9xLSGZk7HXehtuQKiYoHMokIBerTZQmHPVW//KDKZ48rRQx9A==",
+        "requested": "[1.0.51, )",
+        "resolved": "1.0.51",
+        "contentHash": "Rb6g4S+9/2lCrUG8foUHeDlxomHPcyHsBzBZMh4ZcFXIcuZBp3qByHM4jDEndvAQ6CFv7ER33EjiHPa6WMx3ew==",
         "dependencies": {
           "DotNet.ReproducibleBuilds": "1.2.25",
           "DotNet.ReproducibleBuilds.Isolated": "1.2.25",
-          "Meziantou.Analyzer": "2.0.179",
+          "Meziantou.Analyzer": "2.0.182",
           "Microsoft.CodeAnalysis.BannedApiAnalyzers": "3.3.4",
           "Roslynator.Analyzers": "4.12.9",
-          "SonarAnalyzer.CSharp": "9.32.0.97167",
+          "SonarAnalyzer.CSharp": "10.3.0.106239",
           "StyleCop.Analyzers.Unstable": "1.2.0.556"
         }
       },
@@ -53,8 +53,8 @@
       },
       "Meziantou.Analyzer": {
         "type": "Transitive",
-        "resolved": "2.0.179",
-        "contentHash": "F5zRPPi1A1lLq4AkBxKWk32gCo9xy8b46InSBUx47gj3DZFfAYi1TtYeChBJedkDETaVKX0+0YtXh/nVAJ/aQw=="
+        "resolved": "2.0.182",
+        "contentHash": "/QgftLQfuCwP7P9neBMYjfOoUEezFAhlCXAZudO27Q9JTQZilQ2qjLzYG4UD4FBlLNz7zTON0ca6lCzzf/zO5A=="
       },
       "Microsoft.CodeAnalysis.BannedApiAnalyzers": {
         "type": "Transitive",
@@ -90,8 +90,8 @@
       },
       "SonarAnalyzer.CSharp": {
         "type": "Transitive",
-        "resolved": "9.32.0.97167",
-        "contentHash": "Yxk86RV+8ynJpUhku1Yw2hITFmnmXKkXJ73cIFSy85ol5SnWREQg9RuTyV8nI7V7+pyLKpCfRmD7P0widsgjkg=="
+        "resolved": "10.3.0.106239",
+        "contentHash": "Ne5QHx0nUULk7PF+3GIQIC2EnFI93SPRilyqVY6US4JolZOCc9XyUKzvOVsufp7cyrqbOTL07U5mb6poYzllNQ=="
       },
       "StyleCop.Analyzers.Unstable": {
         "type": "Transitive",
@@ -131,7 +131,7 @@
         "resolved": "4.5.3",
         "contentHash": "3TIsJhD1EiiT0w2CcDMN/iSSwnNnsrnbzeVHSKkaEgV85txMprmuO+Yq2AdSbeVGcg28pdNDTPK87tJhX7VFHw=="
       },
-      "Altavec.CommandLine": {
+      "commandline": {
         "type": "Project",
         "dependencies": {
           "System.CommandLine": "[2.0.0-beta4.23407.1, )"
