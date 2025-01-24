@@ -75,8 +75,8 @@
       },
       "System.CommandLine": {
         "type": "Transitive",
-        "resolved": "2.0.0-beta4.23407.1",
-        "contentHash": "uhT8LJz12lBakhANCVJtdzBeuM+WpHovvRcSW7BrtVDLGoj6WiSdUYrysxEA71OX9UnpG6yWiWo8zJ3ekVFqMw==",
+        "resolved": "2.0.0-beta4.25072.1",
+        "contentHash": "u2Gkp23Rh7eIjPzthoTvMf9GXVjOacy24osqUke0FUcPV67ELmYHGlJtzR8H0z2bv+f23b4e6V4z4Mlu7B6Ojw==",
         "dependencies": {
           "System.Memory": "4.5.4"
         }
@@ -106,10 +106,10 @@
         "resolved": "0.2.0",
         "contentHash": "H7no2W0vuLJTvSPanlrijtG3UdJNVoeWBOp2a5dJFVa2tqSQuP5GfbJw1xAtPG9agRW310nFTUUsyPz5tuVIxw=="
       },
-      "commandline": {
+      "Altavec.CommandLine": {
         "type": "Project",
         "dependencies": {
-          "System.CommandLine": "[2.0.0-beta4.23407.1, )"
+          "System.CommandLine": "[2.0.0-beta4.25072.1, )"
         }
       }
     },
@@ -201,8 +201,8 @@
       },
       "System.CommandLine": {
         "type": "Transitive",
-        "resolved": "2.0.0-beta4.23407.1",
-        "contentHash": "uhT8LJz12lBakhANCVJtdzBeuM+WpHovvRcSW7BrtVDLGoj6WiSdUYrysxEA71OX9UnpG6yWiWo8zJ3ekVFqMw==",
+        "resolved": "2.0.0-beta4.25072.1",
+        "contentHash": "u2Gkp23Rh7eIjPzthoTvMf9GXVjOacy24osqUke0FUcPV67ELmYHGlJtzR8H0z2bv+f23b4e6V4z4Mlu7B6Ojw==",
         "dependencies": {
           "System.Memory": "4.5.4"
         }
@@ -232,10 +232,10 @@
         "resolved": "0.2.0",
         "contentHash": "H7no2W0vuLJTvSPanlrijtG3UdJNVoeWBOp2a5dJFVa2tqSQuP5GfbJw1xAtPG9agRW310nFTUUsyPz5tuVIxw=="
       },
-      "commandline": {
+      "Altavec.CommandLine": {
         "type": "Project",
         "dependencies": {
-          "System.CommandLine": "[2.0.0-beta4.23407.1, )"
+          "System.CommandLine": "[2.0.0-beta4.25072.1, )"
         }
       }
     },
@@ -307,8 +307,8 @@
       },
       "System.CommandLine": {
         "type": "Transitive",
-        "resolved": "2.0.0-beta4.23407.1",
-        "contentHash": "uhT8LJz12lBakhANCVJtdzBeuM+WpHovvRcSW7BrtVDLGoj6WiSdUYrysxEA71OX9UnpG6yWiWo8zJ3ekVFqMw==",
+        "resolved": "2.0.0-beta4.25072.1",
+        "contentHash": "u2Gkp23Rh7eIjPzthoTvMf9GXVjOacy24osqUke0FUcPV67ELmYHGlJtzR8H0z2bv+f23b4e6V4z4Mlu7B6Ojw==",
         "dependencies": {
           "System.Memory": "4.5.4"
         }
@@ -323,10 +323,10 @@
         "resolved": "0.2.0",
         "contentHash": "H7no2W0vuLJTvSPanlrijtG3UdJNVoeWBOp2a5dJFVa2tqSQuP5GfbJw1xAtPG9agRW310nFTUUsyPz5tuVIxw=="
       },
-      "commandline": {
+      "Altavec.CommandLine": {
         "type": "Project",
         "dependencies": {
-          "System.CommandLine": "[2.0.0-beta4.23407.1, )"
+          "System.CommandLine": "[2.0.0-beta4.25072.1, )"
         }
       }
     }

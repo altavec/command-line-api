@@ -1,5 +1,5 @@
 ﻿// -----------------------------------------------------------------------
-// <copyright file="CliOptionsTests.cs" company="Altavec">
+// <copyright file="OptionsTests.cs" company="Altavec">
 // Copyright (c) Altavec. All rights reserved.
 // </copyright>
 // -----------------------------------------------------------------------
@@ -20,9 +20,9 @@ public class FileSystemGlobbingParserTests
 
         Microsoft.Extensions.FileSystemGlobbing.InMemoryDirectoryInfo directoryInfo = new(rootDir, [first, second, third, forth]);
 
-        CliArgument<FileInfo[]> argument = new("FILES") { CustomParser = argumentResult => CommandLine.Parsing.FileSystemGlobbingParser.Parse(argumentResult, directoryInfo) };
-        CliRootCommand root = [argument];
-        CliConfiguration configuration = new(root);
+        Argument<FileInfo[]> argument = new("FILES") { CustomParser = argumentResult => CommandLine.Parsing.FileSystemGlobbingParser.Parse(argumentResult, directoryInfo) };
+        RootCommand root = [argument];
+        CommandLineConfiguration configuration = new(root);
         ParseResult parseResult = configuration.Parse("\"" + Path.Combine(rootDir, "**", "*.txt") + "\"");
 
         _ = parseResult.GetValue(argument).Should().NotBeNull()

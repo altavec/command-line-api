@@ -51,9 +51,9 @@
       },
       "System.CommandLine": {
         "type": "Direct",
-        "requested": "[2.0.0-beta4.24528.1, )",
-        "resolved": "2.0.0-beta4.24528.1",
-        "contentHash": "Xt8tsSU8yd0ZpbT9gl5DAwkMYWLo8PV1fq2R/belrUbHVVOIKqhLfbWksbdknUDpmzMHZenBtD6AGAp9uJTa2w==",
+        "requested": "[2.0.0-beta4.25072.1, )",
+        "resolved": "2.0.0-beta4.25072.1",
+        "contentHash": "u2Gkp23Rh7eIjPzthoTvMf9GXVjOacy24osqUke0FUcPV67ELmYHGlJtzR8H0z2bv+f23b4e6V4z4Mlu7B6Ojw==",
         "dependencies": {
           "System.Memory": "4.5.4"
         }
@@ -230,16 +230,16 @@
           "xunit.extensibility.core": "[2.9.3]"
         }
       },
-      "commandline": {
+      "Altavec.CommandLine": {
         "type": "Project",
         "dependencies": {
-          "System.CommandLine": "[2.0.0-beta4.23407.1, )"
+          "System.CommandLine": "[2.0.0-beta4.25072.1, )"
         }
       },
-      "commandline.logging": {
+      "Altavec.CommandLine.Logging": {
         "type": "Project",
         "dependencies": {
-          "CommandLine": "[1.0.0, )",
+          "Altavec.CommandLine": "[1.0.0, )",
           "Microsoft.Extensions.DependencyInjection": "[2.1.0, )",
           "Microsoft.Extensions.Logging": "[2.1.0, )"
         }
@@ -303,9 +303,12 @@
       },
       "System.CommandLine": {
         "type": "Direct",
-        "requested": "[2.0.0-beta4.24528.1, )",
-        "resolved": "2.0.0-beta4.24528.1",
-        "contentHash": "Xt8tsSU8yd0ZpbT9gl5DAwkMYWLo8PV1fq2R/belrUbHVVOIKqhLfbWksbdknUDpmzMHZenBtD6AGAp9uJTa2w=="
+        "requested": "[2.0.0-beta4.25072.1, )",
+        "resolved": "2.0.0-beta4.25072.1",
+        "contentHash": "u2Gkp23Rh7eIjPzthoTvMf9GXVjOacy24osqUke0FUcPV67ELmYHGlJtzR8H0z2bv+f23b4e6V4z4Mlu7B6Ojw==",
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        }
       },
       "xunit": {
         "type": "Direct",
@@ -397,6 +400,11 @@
           "Microsoft.Win32.SystemEvents": "6.0.0"
         }
       },
+      "System.Memory": {
+        "type": "Transitive",
+        "resolved": "4.5.4",
+        "contentHash": "1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw=="
+      },
       "System.Reflection.Metadata": {
         "type": "Transitive",
         "resolved": "1.6.0",
@@ -469,16 +477,16 @@
           "xunit.extensibility.core": "[2.9.3]"
         }
       },
-      "commandline": {
+      "Altavec.CommandLine": {
         "type": "Project",
         "dependencies": {
-          "System.CommandLine": "[2.0.0-beta4.23407.1, )"
+          "System.CommandLine": "[2.0.0-beta4.25072.1, )"
         }
       },
-      "commandline.logging": {
+      "Altavec.CommandLine.Logging": {
         "type": "Project",
         "dependencies": {
-          "CommandLine": "[1.0.0, )",
+          "Altavec.CommandLine": "[1.0.0, )",
           "Microsoft.Extensions.DependencyInjection": "[2.1.0, )",
           "Microsoft.Extensions.Logging": "[2.1.0, )"
         }
@@ -541,9 +549,9 @@
       },
       "System.CommandLine": {
         "type": "Direct",
-        "requested": "[2.0.0-beta4.24528.1, )",
-        "resolved": "2.0.0-beta4.24528.1",
-        "contentHash": "Xt8tsSU8yd0ZpbT9gl5DAwkMYWLo8PV1fq2R/belrUbHVVOIKqhLfbWksbdknUDpmzMHZenBtD6AGAp9uJTa2w=="
+        "requested": "[2.0.0-beta4.25072.1, )",
+        "resolved": "2.0.0-beta4.25072.1",
+        "contentHash": "u2Gkp23Rh7eIjPzthoTvMf9GXVjOacy24osqUke0FUcPV67ELmYHGlJtzR8H0z2bv+f23b4e6V4z4Mlu7B6Ojw=="
       },
       "xunit": {
         "type": "Direct",
@@ -710,16 +718,16 @@
           "xunit.extensibility.core": "[2.9.3]"
         }
       },
-      "commandline": {
+      "Altavec.CommandLine": {
         "type": "Project",
         "dependencies": {
-          "System.CommandLine": "[2.0.0-beta4.23407.1, )"
+          "System.CommandLine": "[2.0.0-beta4.25072.1, )"
         }
       },
-      "commandline.logging": {
+      "Altavec.CommandLine.Logging": {
         "type": "Project",
         "dependencies": {
-          "CommandLine": "[1.0.0, )",
+          "Altavec.CommandLine": "[1.0.0, )",
           "Microsoft.Extensions.DependencyInjection": "[2.1.0, )",
           "Microsoft.Extensions.Logging": "[2.1.0, )"
         }
@@ -782,9 +790,9 @@
       },
       "System.CommandLine": {
         "type": "Direct",
-        "requested": "[2.0.0-beta4.24528.1, )",
-        "resolved": "2.0.0-beta4.24528.1",
-        "contentHash": "Xt8tsSU8yd0ZpbT9gl5DAwkMYWLo8PV1fq2R/belrUbHVVOIKqhLfbWksbdknUDpmzMHZenBtD6AGAp9uJTa2w=="
+        "requested": "[2.0.0-beta4.25072.1, )",
+        "resolved": "2.0.0-beta4.25072.1",
+        "contentHash": "u2Gkp23Rh7eIjPzthoTvMf9GXVjOacy24osqUke0FUcPV67ELmYHGlJtzR8H0z2bv+f23b4e6V4z4Mlu7B6Ojw=="
       },
       "xunit": {
         "type": "Direct",
@@ -951,16 +959,16 @@
           "xunit.extensibility.core": "[2.9.3]"
         }
       },
-      "commandline": {
+      "Altavec.CommandLine": {
         "type": "Project",
         "dependencies": {
-          "System.CommandLine": "[2.0.0-beta4.23407.1, )"
+          "System.CommandLine": "[2.0.0-beta4.25072.1, )"
         }
       },
-      "commandline.logging": {
+      "Altavec.CommandLine.Logging": {
         "type": "Project",
         "dependencies": {
-          "CommandLine": "[1.0.0, )",
+          "Altavec.CommandLine": "[1.0.0, )",
           "Microsoft.Extensions.DependencyInjection": "[2.1.0, )",
           "Microsoft.Extensions.Logging": "[2.1.0, )"
         }

@@ -34,9 +34,9 @@
       },
       "System.CommandLine": {
         "type": "Direct",
-        "requested": "[2.0.0-beta4.24528.1, )",
-        "resolved": "2.0.0-beta4.24528.1",
-        "contentHash": "Xt8tsSU8yd0ZpbT9gl5DAwkMYWLo8PV1fq2R/belrUbHVVOIKqhLfbWksbdknUDpmzMHZenBtD6AGAp9uJTa2w==",
+        "requested": "[2.0.0-beta4.25072.1, )",
+        "resolved": "2.0.0-beta4.25072.1",
+        "contentHash": "u2Gkp23Rh7eIjPzthoTvMf9GXVjOacy24osqUke0FUcPV67ELmYHGlJtzR8H0z2bv+f23b4e6V4z4Mlu7B6Ojw==",
         "dependencies": {
           "System.Memory": "4.5.4"
         }
@@ -264,40 +264,40 @@
         "resolved": "4.5.0",
         "contentHash": "okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ=="
       },
-      "commandline": {
+      "Altavec.CommandLine": {
         "type": "Project",
         "dependencies": {
-          "System.CommandLine": "[2.0.0-beta4.23407.1, )"
+          "System.CommandLine": "[2.0.0-beta4.25072.1, )"
         }
       },
-      "commandline.filesystemglobbing": {
+      "Altavec.CommandLine.FileSystemGlobbing": {
         "type": "Project",
         "dependencies": {
           "Microsoft.Extensions.FileSystemGlobbing": "[2.1.0, )",
-          "System.CommandLine": "[2.0.0-beta4.23407.1, )"
+          "System.CommandLine": "[2.0.0-beta4.25072.1, )"
         }
       },
-      "commandline.hosting": {
+      "Altavec.CommandLine.Hosting": {
         "type": "Project",
         "dependencies": {
-          "CommandLine": "[1.0.0, )",
-          "CommandLine.FileSystemGlobbing": "[1.0.0, )",
-          "CommandLine.Logging": "[1.0.0, )",
+          "Altavec.CommandLine": "[1.0.0, )",
+          "Altavec.CommandLine.FileSystemGlobbing": "[1.0.0, )",
+          "Altavec.CommandLine.Logging": "[1.0.0, )",
           "Microsoft.Extensions.Hosting": "[2.1.0, )"
         }
       },
-      "commandline.logging": {
+      "Altavec.CommandLine.Logging": {
         "type": "Project",
         "dependencies": {
-          "CommandLine": "[1.0.0, )",
+          "Altavec.CommandLine": "[1.0.0, )",
           "Microsoft.Extensions.DependencyInjection": "[2.1.0, )",
           "Microsoft.Extensions.Logging": "[2.1.0, )"
         }
       },
-      "commandline.spectre": {
+      "Altavec.CommandLine.Spectre": {
         "type": "Project",
         "dependencies": {
-          "CommandLine": "[1.0.0, )",
+          "Altavec.CommandLine": "[1.0.0, )",
           "Spectre.Console": "[0.42.0, )"
         }
       }
@@ -333,9 +333,9 @@
       },
       "System.CommandLine": {
         "type": "Direct",
-        "requested": "[2.0.0-beta4.24528.1, )",
-        "resolved": "2.0.0-beta4.24528.1",
-        "contentHash": "Xt8tsSU8yd0ZpbT9gl5DAwkMYWLo8PV1fq2R/belrUbHVVOIKqhLfbWksbdknUDpmzMHZenBtD6AGAp9uJTa2w=="
+        "requested": "[2.0.0-beta4.25072.1, )",
+        "resolved": "2.0.0-beta4.25072.1",
+        "contentHash": "u2Gkp23Rh7eIjPzthoTvMf9GXVjOacy24osqUke0FUcPV67ELmYHGlJtzR8H0z2bv+f23b4e6V4z4Mlu7B6Ojw=="
       },
       "System.Text.Json": {
         "type": "Direct",
@@ -661,40 +661,40 @@
         "resolved": "8.0.1",
         "contentHash": "n1ZP7NM2Gkn/MgD8+eOT5MulMj6wfeQMNS2Pizvq5GHCZfjlFMXV2irQlQmJhwA2VABC57M0auudO89Iu2uRLg=="
       },
-      "commandline": {
+      "Altavec.CommandLine": {
         "type": "Project",
         "dependencies": {
-          "System.CommandLine": "[2.0.0-beta4.23407.1, )"
+          "System.CommandLine": "[2.0.0-beta4.25072.1, )"
         }
       },
-      "commandline.filesystemglobbing": {
+      "Altavec.CommandLine.FileSystemGlobbing": {
         "type": "Project",
         "dependencies": {
           "Microsoft.Extensions.FileSystemGlobbing": "[2.1.0, )",
-          "System.CommandLine": "[2.0.0-beta4.23407.1, )"
+          "System.CommandLine": "[2.0.0-beta4.25072.1, )"
         }
       },
-      "commandline.hosting": {
+      "Altavec.CommandLine.Hosting": {
         "type": "Project",
         "dependencies": {
-          "CommandLine": "[1.0.0, )",
-          "CommandLine.FileSystemGlobbing": "[1.0.0, )",
-          "CommandLine.Logging": "[1.0.0, )",
+          "Altavec.CommandLine": "[1.0.0, )",
+          "Altavec.CommandLine.FileSystemGlobbing": "[1.0.0, )",
+          "Altavec.CommandLine.Logging": "[1.0.0, )",
           "Microsoft.Extensions.Hosting": "[8.0.1, )"
         }
       },
-      "commandline.logging": {
+      "Altavec.CommandLine.Logging": {
         "type": "Project",
         "dependencies": {
-          "CommandLine": "[1.0.0, )",
+          "Altavec.CommandLine": "[1.0.0, )",
           "Microsoft.Extensions.DependencyInjection": "[2.1.0, )",
           "Microsoft.Extensions.Logging": "[2.1.0, )"
         }
       },
-      "commandline.spectre": {
+      "Altavec.CommandLine.Spectre": {
         "type": "Project",
         "dependencies": {
-          "CommandLine": "[1.0.0, )",
+          "Altavec.CommandLine": "[1.0.0, )",
           "Spectre.Console": "[0.42.0, )"
         }
       }
@@ -736,9 +736,9 @@
       },
       "System.CommandLine": {
         "type": "Direct",
-        "requested": "[2.0.0-beta4.24528.1, )",
-        "resolved": "2.0.0-beta4.24528.1",
-        "contentHash": "Xt8tsSU8yd0ZpbT9gl5DAwkMYWLo8PV1fq2R/belrUbHVVOIKqhLfbWksbdknUDpmzMHZenBtD6AGAp9uJTa2w=="
+        "requested": "[2.0.0-beta4.25072.1, )",
+        "resolved": "2.0.0-beta4.25072.1",
+        "contentHash": "u2Gkp23Rh7eIjPzthoTvMf9GXVjOacy24osqUke0FUcPV67ELmYHGlJtzR8H0z2bv+f23b4e6V4z4Mlu7B6Ojw=="
       },
       "System.Text.Json": {
         "type": "Direct",
@@ -1064,40 +1064,40 @@
         "resolved": "9.0.0",
         "contentHash": "qd01+AqPhbAG14KtdtIqFk+cxHQFZ/oqRSCoxU1F+Q6Kv0cl726sl7RzU9yLFGd4BUOKdN4XojXF0pQf/R6YeA=="
       },
-      "commandline": {
+      "Altavec.CommandLine": {
         "type": "Project",
         "dependencies": {
-          "System.CommandLine": "[2.0.0-beta4.23407.1, )"
+          "System.CommandLine": "[2.0.0-beta4.25072.1, )"
         }
       },
-      "commandline.filesystemglobbing": {
+      "Altavec.CommandLine.FileSystemGlobbing": {
         "type": "Project",
         "dependencies": {
           "Microsoft.Extensions.FileSystemGlobbing": "[2.1.0, )",
-          "System.CommandLine": "[2.0.0-beta4.23407.1, )"
+          "System.CommandLine": "[2.0.0-beta4.25072.1, )"
         }
       },
-      "commandline.hosting": {
+      "Altavec.CommandLine.Hosting": {
         "type": "Project",
         "dependencies": {
-          "CommandLine": "[1.0.0, )",
-          "CommandLine.FileSystemGlobbing": "[1.0.0, )",
-          "CommandLine.Logging": "[1.0.0, )",
+          "Altavec.CommandLine": "[1.0.0, )",
+          "Altavec.CommandLine.FileSystemGlobbing": "[1.0.0, )",
+          "Altavec.CommandLine.Logging": "[1.0.0, )",
           "Microsoft.Extensions.Hosting": "[9.0.0, )"
         }
       },
-      "commandline.logging": {
+      "Altavec.CommandLine.Logging": {
         "type": "Project",
         "dependencies": {
-          "CommandLine": "[1.0.0, )",
+          "Altavec.CommandLine": "[1.0.0, )",
           "Microsoft.Extensions.DependencyInjection": "[2.1.0, )",
           "Microsoft.Extensions.Logging": "[2.1.0, )"
         }
       },
-      "commandline.spectre": {
+      "Altavec.CommandLine.Spectre": {
         "type": "Project",
         "dependencies": {
-          "CommandLine": "[1.0.0, )",
+          "Altavec.CommandLine": "[1.0.0, )",
           "Spectre.Console": "[0.42.0, )"
         }
       }
