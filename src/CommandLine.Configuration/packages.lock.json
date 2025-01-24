@@ -4,16 +4,16 @@
     ".NETStandard,Version=v2.0": {
       "Altavec.DotNet.CodingStandard": {
         "type": "Direct",
-        "requested": "[1.0.51, )",
-        "resolved": "1.0.51",
-        "contentHash": "Rb6g4S+9/2lCrUG8foUHeDlxomHPcyHsBzBZMh4ZcFXIcuZBp3qByHM4jDEndvAQ6CFv7ER33EjiHPa6WMx3ew==",
+        "requested": "[1.0.57, )",
+        "resolved": "1.0.57",
+        "contentHash": "pBh2GIk3v8PGYW3unV3RueKoe8NihVOvH1lpKoPN8oX9uTG+Myg/m2dVt7KQfIs+F6VEYBPv32U6BKnF9brYvQ==",
         "dependencies": {
           "DotNet.ReproducibleBuilds": "1.2.25",
           "DotNet.ReproducibleBuilds.Isolated": "1.2.25",
-          "Meziantou.Analyzer": "2.0.182",
+          "Meziantou.Analyzer": "2.0.186",
           "Microsoft.CodeAnalysis.BannedApiAnalyzers": "3.3.4",
-          "Roslynator.Analyzers": "4.12.9",
-          "SonarAnalyzer.CSharp": "10.3.0.106239",
+          "Roslynator.Analyzers": "4.12.10",
+          "SonarAnalyzer.CSharp": "10.5.0.109200",
           "StyleCop.Analyzers.Unstable": "1.2.0.556"
         }
       },
@@ -53,8 +53,8 @@
       },
       "Meziantou.Analyzer": {
         "type": "Transitive",
-        "resolved": "2.0.182",
-        "contentHash": "/QgftLQfuCwP7P9neBMYjfOoUEezFAhlCXAZudO27Q9JTQZilQ2qjLzYG4UD4FBlLNz7zTON0ca6lCzzf/zO5A=="
+        "resolved": "2.0.186",
+        "contentHash": "PE8c9opHuUWLNqnZTN/KQC9oIfD/ZtsQ25sHF7/og4KfIRVnN4mgiyYw5NwCp8YPGapLoduIxuyQAcic6Eqcjg=="
       },
       "Microsoft.CodeAnalysis.BannedApiAnalyzers": {
         "type": "Transitive",
@@ -85,13 +85,13 @@
       },
       "Roslynator.Analyzers": {
         "type": "Transitive",
-        "resolved": "4.12.9",
-        "contentHash": "X6lDpN/D5wuinq37KIx+l3GSUe9No+8bCjGBTI5sEEtxapLztkHg6gzNVhMXpXw8P+/5gFYxTXJ5Pf8O4iNz/w=="
+        "resolved": "4.12.10",
+        "contentHash": "Wecq3nfhTvnJPxX87hKbjMdX1xeCAMJf9rdBX3nQLTntQs9v0fFbUB2eQSSOArXMuFh7MxjLWaL4+b6XMi1NDA=="
       },
       "SonarAnalyzer.CSharp": {
         "type": "Transitive",
-        "resolved": "10.3.0.106239",
-        "contentHash": "Ne5QHx0nUULk7PF+3GIQIC2EnFI93SPRilyqVY6US4JolZOCc9XyUKzvOVsufp7cyrqbOTL07U5mb6poYzllNQ=="
+        "resolved": "10.5.0.109200",
+        "contentHash": "yS8uepqf+HwSEZtkJR7O4siqfyGKX4Lu7mIB6TTppy59czq7qkFjZ+fB7NTRZg8a/Pu7tvwVhpEMcxUTiQZmSw=="
       },
       "StyleCop.Analyzers.Unstable": {
         "type": "Transitive",
