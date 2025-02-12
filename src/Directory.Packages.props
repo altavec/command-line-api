@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup Label="Build">
-    <GlobalPackageReference Include="Altavec.SemanticVersioning.MSBuild" Version="2.1.7" />
+    <GlobalPackageReference Include="Altavec.SemanticVersioning.MSBuild" Version="2.1.9" />
   </ItemGroup>
 
 </Project>

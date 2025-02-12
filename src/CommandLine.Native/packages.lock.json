@@ -30,9 +30,9 @@
       },
       "Altavec.SemanticVersioning.MSBuild": {
         "type": "Direct",
-        "requested": "[2.1.7, )",
-        "resolved": "2.1.7",
-        "contentHash": "S1ZsA0J8mkdUKC5riNIm49swPXM0vJ+07yyQjiTMsNUR3lCX1IEvylQegIiTwMg1KOvc1RwSadE0JSwFR+TPAA=="
+        "requested": "[2.1.9, )",
+        "resolved": "2.1.9",
+        "contentHash": "aZZsS+75sizUbA3IXxib84Ta0c1dBebIreCU6vFM8NqRuZ7VBxCMrYLayMNiBiWQC056vhsciQ18SRlXDJHJrg=="
       },
       "Microsoft.Extensions.DependencyModel": {
         "type": "Direct",
