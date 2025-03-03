@@ -25,12 +25,11 @@
       },
       "Spectre.Console": {
         "type": "Direct",
-        "requested": "[0.42.0, )",
-        "resolved": "0.42.0",
-        "contentHash": "S7W1pHhcDOvzPQE4TJtQvkkF1/zflCvF5E7rYgHJXFVT/rnPZE8o7GmHJbckY7LUUAZ1OllUJ3E5BxBzCVg+wQ==",
+        "requested": "[0.44.0, )",
+        "resolved": "0.44.0",
+        "contentHash": "QMpKtn5QV1j2nklqDwuRE/XwbDn5jxww+Mt5J6Jn3EeQIzaLcuLyUhCLh/mS8giN6uXbqOV1ep5HlUGxrV1ujQ==",
         "dependencies": {
-          "System.Memory": "4.5.0",
-          "Wcwidth": "0.2.0"
+          "System.Memory": "4.5.0"
         }
       },
       "DotNet.ReproducibleBuilds": {
@@ -101,11 +100,6 @@
         "resolved": "4.5.3",
         "contentHash": "3TIsJhD1EiiT0w2CcDMN/iSSwnNnsrnbzeVHSKkaEgV85txMprmuO+Yq2AdSbeVGcg28pdNDTPK87tJhX7VFHw=="
       },
-      "Wcwidth": {
-        "type": "Transitive",
-        "resolved": "0.2.0",
-        "contentHash": "H7no2W0vuLJTvSPanlrijtG3UdJNVoeWBOp2a5dJFVa2tqSQuP5GfbJw1xAtPG9agRW310nFTUUsyPz5tuVIxw=="
-      },
       "commandline": {
         "type": "Project",
         "dependencies": {
@@ -146,12 +140,11 @@
       },
       "Spectre.Console": {
         "type": "Direct",
-        "requested": "[0.42.0, )",
-        "resolved": "0.42.0",
-        "contentHash": "S7W1pHhcDOvzPQE4TJtQvkkF1/zflCvF5E7rYgHJXFVT/rnPZE8o7GmHJbckY7LUUAZ1OllUJ3E5BxBzCVg+wQ==",
+        "requested": "[0.44.0, )",
+        "resolved": "0.44.0",
+        "contentHash": "QMpKtn5QV1j2nklqDwuRE/XwbDn5jxww+Mt5J6Jn3EeQIzaLcuLyUhCLh/mS8giN6uXbqOV1ep5HlUGxrV1ujQ==",
         "dependencies": {
-          "System.Memory": "4.5.0",
-          "Wcwidth": "0.2.0"
+          "System.Memory": "4.5.0"
         }
       },
       "DotNet.ReproducibleBuilds": {
@@ -227,11 +220,6 @@
         "resolved": "4.5.3",
         "contentHash": "3TIsJhD1EiiT0w2CcDMN/iSSwnNnsrnbzeVHSKkaEgV85txMprmuO+Yq2AdSbeVGcg28pdNDTPK87tJhX7VFHw=="
       },
-      "Wcwidth": {
-        "type": "Transitive",
-        "resolved": "0.2.0",
-        "contentHash": "H7no2W0vuLJTvSPanlrijtG3UdJNVoeWBOp2a5dJFVa2tqSQuP5GfbJw1xAtPG9agRW310nFTUUsyPz5tuVIxw=="
-      },
       "commandline": {
         "type": "Project",
         "dependencies": {
@@ -263,12 +251,9 @@
       },
       "Spectre.Console": {
         "type": "Direct",
-        "requested": "[0.42.0, )",
-        "resolved": "0.42.0",
-        "contentHash": "S7W1pHhcDOvzPQE4TJtQvkkF1/zflCvF5E7rYgHJXFVT/rnPZE8o7GmHJbckY7LUUAZ1OllUJ3E5BxBzCVg+wQ==",
-        "dependencies": {
-          "Wcwidth": "0.2.0"
-        }
+        "requested": "[0.44.0, )",
+        "resolved": "0.44.0",
+        "contentHash": "QMpKtn5QV1j2nklqDwuRE/XwbDn5jxww+Mt5J6Jn3EeQIzaLcuLyUhCLh/mS8giN6uXbqOV1ep5HlUGxrV1ujQ=="
       },
       "DotNet.ReproducibleBuilds": {
         "type": "Transitive",
@@ -317,11 +302,6 @@
         "type": "Transitive",
         "resolved": "4.5.4",
         "contentHash": "1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw=="
-      },
-      "Wcwidth": {
-        "type": "Transitive",
-        "resolved": "0.2.0",
-        "contentHash": "H7no2W0vuLJTvSPanlrijtG3UdJNVoeWBOp2a5dJFVa2tqSQuP5GfbJw1xAtPG9agRW310nFTUUsyPz5tuVIxw=="
       },
       "commandline": {
         "type": "Project",

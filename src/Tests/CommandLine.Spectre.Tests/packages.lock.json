@@ -245,7 +245,7 @@
         "type": "Project",
         "dependencies": {
           "CommandLine": "[1.0.0, )",
-          "Spectre.Console": "[0.42.0, )"
+          "Spectre.Console": "[0.44.0, )"
         }
       },
       "Microsoft.Extensions.DependencyModel": {
@@ -410,7 +410,7 @@
         "type": "Project",
         "dependencies": {
           "CommandLine": "[1.0.0, )",
-          "Spectre.Console": "[0.42.0, )"
+          "Spectre.Console": "[0.44.0, )"
         }
       },
       "Microsoft.Extensions.DependencyModel": {
@@ -562,7 +562,7 @@
         "type": "Project",
         "dependencies": {
           "CommandLine": "[1.0.0, )",
-          "Spectre.Console": "[0.42.0, )"
+          "Spectre.Console": "[0.44.0, )"
         }
       },
       "Microsoft.Extensions.DependencyModel": {
