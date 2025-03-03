@@ -4,16 +4,16 @@
     ".NETStandard,Version=v2.0": {
       "Altavec.DotNet.CodingStandard": {
         "type": "Direct",
-        "requested": "[1.0.62, )",
-        "resolved": "1.0.62",
-        "contentHash": "HIJmqzL0Ge9/+L+tBxiI4hq1fzCBj0UVzrbdT1QJjxvuCoO2DZPxQYYN+FWGUzgpaEsK0QFAOPDKwRe5MRHsPQ==",
+        "requested": "[1.0.64, )",
+        "resolved": "1.0.64",
+        "contentHash": "GRRGpQJR2nrea0prewCLZVOBdM6yQpp56zLb/vLC7tl4hwYntckSHBrjyaI2QdibbLaIJzEGAcs7gtiq1W3/0w==",
         "dependencies": {
           "DotNet.ReproducibleBuilds": "1.2.25",
           "DotNet.ReproducibleBuilds.Isolated": "1.2.25",
           "Meziantou.Analyzer": "2.0.188",
           "Microsoft.CodeAnalysis.BannedApiAnalyzers": "3.3.4",
-          "Roslynator.Analyzers": "4.13.0",
-          "SonarAnalyzer.CSharp": "10.6.0.109712",
+          "Roslynator.Analyzers": "4.13.1",
+          "SonarAnalyzer.CSharp": "10.7.0.110445",
           "StyleCop.Analyzers.Unstable": "1.2.0.556"
         }
       },
@@ -68,13 +68,13 @@
       },
       "Roslynator.Analyzers": {
         "type": "Transitive",
-        "resolved": "4.13.0",
-        "contentHash": "SSYEq2tPT4nmElTGJvpDsLmEw1mWY+Z+CM+H7gO49fSq4VyFivrmHyCeP3gWcDmgqMg77h2tLYRoZ0cjgnKmuA=="
+        "resolved": "4.13.1",
+        "contentHash": "KZpLy6ZlCebMk+d/3I5KU2R7AOb4LNJ6tPJqPtvFXmO8bEBHQvCIAvJOnY2tu4C9/aVOROTDYUFADxFqw1gh/g=="
       },
       "SonarAnalyzer.CSharp": {
         "type": "Transitive",
-        "resolved": "10.6.0.109712",
-        "contentHash": "fMwoXhlmFrcIYLpmCZOPXQkKwQD6WoFsmkZp8FZ7RJ9Db+ELUg56qh1X4Vy2nU7ZOWmuAMDOMosYxiQKNLBWtw=="
+        "resolved": "10.7.0.110445",
+        "contentHash": "U4v2LWopxADYkUv7Z5CX7ifKMdDVqHb7a1bzppIQnQi4WQR6z1Zi5rDkCHlVYGEd1U/WMz1IJCU8OmFZLJpVig=="
       },
       "StyleCop.Analyzers.Unstable": {
         "type": "Transitive",
@@ -110,16 +110,16 @@
     ".NETStandard,Version=v2.1": {
       "Altavec.DotNet.CodingStandard": {
         "type": "Direct",
-        "requested": "[1.0.62, )",
-        "resolved": "1.0.62",
-        "contentHash": "HIJmqzL0Ge9/+L+tBxiI4hq1fzCBj0UVzrbdT1QJjxvuCoO2DZPxQYYN+FWGUzgpaEsK0QFAOPDKwRe5MRHsPQ==",
+        "requested": "[1.0.64, )",
+        "resolved": "1.0.64",
+        "contentHash": "GRRGpQJR2nrea0prewCLZVOBdM6yQpp56zLb/vLC7tl4hwYntckSHBrjyaI2QdibbLaIJzEGAcs7gtiq1W3/0w==",
         "dependencies": {
           "DotNet.ReproducibleBuilds": "1.2.25",
           "DotNet.ReproducibleBuilds.Isolated": "1.2.25",
           "Meziantou.Analyzer": "2.0.188",
           "Microsoft.CodeAnalysis.BannedApiAnalyzers": "3.3.4",
-          "Roslynator.Analyzers": "4.13.0",
-          "SonarAnalyzer.CSharp": "10.6.0.109712",
+          "Roslynator.Analyzers": "4.13.1",
+          "SonarAnalyzer.CSharp": "10.7.0.110445",
           "StyleCop.Analyzers.Unstable": "1.2.0.556"
         }
       },
@@ -160,13 +160,13 @@
       },
       "Roslynator.Analyzers": {
         "type": "Transitive",
-        "resolved": "4.13.0",
-        "contentHash": "SSYEq2tPT4nmElTGJvpDsLmEw1mWY+Z+CM+H7gO49fSq4VyFivrmHyCeP3gWcDmgqMg77h2tLYRoZ0cjgnKmuA=="
+        "resolved": "4.13.1",
+        "contentHash": "KZpLy6ZlCebMk+d/3I5KU2R7AOb4LNJ6tPJqPtvFXmO8bEBHQvCIAvJOnY2tu4C9/aVOROTDYUFADxFqw1gh/g=="
       },
       "SonarAnalyzer.CSharp": {
         "type": "Transitive",
-        "resolved": "10.6.0.109712",
-        "contentHash": "fMwoXhlmFrcIYLpmCZOPXQkKwQD6WoFsmkZp8FZ7RJ9Db+ELUg56qh1X4Vy2nU7ZOWmuAMDOMosYxiQKNLBWtw=="
+        "resolved": "10.7.0.110445",
+        "contentHash": "U4v2LWopxADYkUv7Z5CX7ifKMdDVqHb7a1bzppIQnQi4WQR6z1Zi5rDkCHlVYGEd1U/WMz1IJCU8OmFZLJpVig=="
       },
       "StyleCop.Analyzers.Unstable": {
         "type": "Transitive",
