@@ -294,7 +294,6 @@
       "commandline.hosting": {
         "type": "Project",
         "dependencies": {
-          "CommandLine": "[1.0.0, )",
           "CommandLine.FileSystemGlobbing": "[1.0.0, )",
           "CommandLine.Logging": "[1.0.0, )",
           "Microsoft.Extensions.Hosting": "[2.1.0, )"
@@ -698,7 +697,6 @@
       "commandline.hosting": {
         "type": "Project",
         "dependencies": {
-          "CommandLine": "[1.0.0, )",
           "CommandLine.FileSystemGlobbing": "[1.0.0, )",
           "CommandLine.Logging": "[1.0.0, )",
           "Microsoft.Extensions.Hosting": "[8.0.1, )"
@@ -1102,7 +1100,6 @@
       "commandline.hosting": {
         "type": "Project",
         "dependencies": {
-          "CommandLine": "[1.0.0, )",
           "CommandLine.FileSystemGlobbing": "[1.0.0, )",
           "CommandLine.Logging": "[1.0.0, )",
           "Microsoft.Extensions.Hosting": "[9.0.0, )"
